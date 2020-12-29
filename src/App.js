@@ -23,7 +23,7 @@ class App extends Component {
         <Navbar /> 
         <div className="cardGrid">
           <div className="row">
-            <h2 className="mt-4 mb-3 text-uppercase" id="cloths">Movies</h2>
+            <h2 className="mt-5 mb-3 text-uppercase" id="cloths">Movies</h2>
             {loader ? (
               <div className="d-flex justify-content-center">
                 <div className="spinner-border text-info" role="status">
