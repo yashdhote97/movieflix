@@ -1,0 +1,18 @@
+.cardImg {
+  height: 100%;
+  width: 100%;
+}
+.hoverDisplay {
+  cursor: pointer;
+  color: rgb(56, 56, 56);
+  visibility: hidden;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardWrap:hover .cardImg {
+  opacity: 0.15;
+}
+.cardWrap:hover .hoverDisplay {
+  visibility: visible;
+}
+

@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.cardGrid{
+ width:80%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 60px;
+ margin-bottom: 80px;
+}
+ @media only screen and (max-width: 576px) {
+.cardGrid{
+  width:50%;
+}
+} 
